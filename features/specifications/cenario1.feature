@@ -13,6 +13,7 @@ Scenario: Pesquisa, validacoes e adicao de produto ao carrinho
  And I click "Procurar" button
  Then I expect to dont see "nenhum resultado"
  And I click on the first result
+# Desculpe, nao consegui mudar o encoding. ç
  Then I expect to dont see "o foi encontrada."
  And I expect to see product price
  And I expect to see "LG 43LF6350 WebOS 3 USB 3 HDMI Wi-fi integrado"
